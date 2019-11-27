@@ -18,7 +18,6 @@ Last modified at 11:20 pm on 15 September, 2019
 #define REF_X 80            // Initial x co-ordinate of the bird
 #define FILE_NAME "highscores"
 
-
 const int _WinX = 800, _WinY = 600; // Window size
 
 //  variables for pillars
