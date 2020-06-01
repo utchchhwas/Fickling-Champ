@@ -280,12 +280,12 @@ void iMouse(int button, int state, int mx, int my) {
     if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN && (_game_menu_options_ctrl || _pause_ctrl)) {
         if ((mx >= 10 && mx <= 35) && (my >= 30) && (my <= 55)) {
             if(_sound_ctrl) {
-                PlaySound(NULL, NULL, SND_ASYNC);
+                // PlaySound(NULL, NULL, SND_ASYNC);
 
                 _sound_ctrl = 0;
             }
             else {
-                PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
+                // PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
 
                 _sound_ctrl = 1;
             }
@@ -307,12 +307,12 @@ void iMouse(int button, int state, int mx, int my) {
 void iKeyboard(unsigned char key) {
     if (key == 's' && !_loading_screen_ctrl) {
         if(_sound_ctrl) {
-            PlaySound(NULL, NULL, SND_ASYNC);
+            // PlaySound(NULL, NULL, SND_ASYNC);
 
             _sound_ctrl = 0;
         }
         else {
-            PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
+            // PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
 
             _sound_ctrl = 1;
         }
@@ -460,7 +460,7 @@ int main() {
     reset_all_values();
     get_high_score();
 
-    PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
+    // PlaySound("playback.wav", NULL, SND_ASYNC | SND_LOOP);
 
     iInitialize(_WinX, _WinY, "Fickling Champ");
 

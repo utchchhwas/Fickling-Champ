@@ -1,10 +1,8 @@
 # depslib dependency file v1.0
-1562608324 source:c:\users\asus\downloads\igraphics-master\igraphics-master\watch.cpp
+1591033487 source:c:\users\utchchhwas\onedrive\documents\fickling-cham\fickling-champ\fickling champ.cpp
 	"iGraphics.h"
-	<math.h>
-	<time.h>
 
-1563369238 c:\users\asus\downloads\igraphics-master\igraphics-master\igraphics.h
+1591029933 c:\users\utchchhwas\onedrive\documents\fickling-cham\fickling-champ\igraphics.h
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
@@ -13,19 +11,13 @@
 	<math.h>
 	"glaux.h"
 
-1562608324 c:\users\asus\downloads\igraphics-master\igraphics-master\opengl\include\glut.h
+1591029933 c:\users\utchchhwas\onedrive\documents\fickling-cham\fickling-champ\opengl\include\glut.h
 	<windows.h>
 	<GL/gl.h>
 	<GL/glu.h>
 
-1562608324 c:\users\asus\downloads\igraphics-master\igraphics-master\opengl\include\glaux.h
+1591029933 c:\users\utchchhwas\onedrive\documents\fickling-cham\fickling-champ\opengl\include\glaux.h
 	<windows.h>
 	<GL/gl.h>
 	<GL/glu.h>
-
-1562608323 source:c:\users\asus\downloads\igraphics-master\igraphics-master\balldemo.cpp
-	"iGraphics.h"
-	"gl.h"
-
-1562608324 c:\users\asus\downloads\igraphics-master\igraphics-master\opengl\include\gl.h
 
